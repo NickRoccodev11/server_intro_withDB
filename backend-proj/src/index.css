@@ -1,0 +1,65 @@
+body {
+  background-color: rgb(205, 185, 161);
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(208, 190, 111);
+  padding: 20px;
+}
+
+nav {
+  background-color: rgb(204, 87, 87);
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+nav>* {
+  margin-left: 10px;
+  font-size: x-large;
+}
+
+form>* {
+  margin: 10px;
+}
+
+form {
+  background-color: blanchedalmond;
+  padding: 10px;
+}
+
+input {
+  background-color: rgb(230, 209, 183);
+}
+
+button {
+  background-color: rgb(172, 88, 88);
+  box-shadow: 2px 2px 2px rgb(197, 174, 85);
+  color: white;
+}
+
+.response-p {
+  background-color: antiquewhite;
+  padding: 30px;
+  text-align: center;
+  font-size: x-large;
+}
+
+#pets {
+  background-color: rgb(227, 227, 168);
+  padding: 30px;
+}
+
+.pet-details {
+  background-color: rgb(220, 205, 103);
+  text-align: center;
+  font-size: larger;
+  padding: 10px;
+}
+
+span {
+  color: rgb(141, 31, 31);
+}
